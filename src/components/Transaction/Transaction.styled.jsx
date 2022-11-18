@@ -28,7 +28,7 @@ border: 1px solid  rgb(236, 223, 223);
 export const TableData = styled.td`
 padding: 20px;
 width: 300px;
-color: props.theme.colors.primaryTextColor};
+color: ${props => props.theme.colors.primaryTextColor};
 font-size: 20px;
 text-transform: capitalize;
 border: 1px solid #212121;
