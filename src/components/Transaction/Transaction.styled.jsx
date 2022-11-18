@@ -14,7 +14,7 @@ color:${props => props.theme.colors.secondaryTextColor};
 `;
 
 export const TableRow = styled.tr`
-&:nth-child(even) {background-color: rgb(200, 200, 200);}
+&:nth-of-type(even) {background-color: rgb(200, 200, 200);}
 `;
 
 export const TableHeadData = styled.th`
