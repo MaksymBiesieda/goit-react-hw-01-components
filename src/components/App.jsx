@@ -1,7 +1,7 @@
-import user from '../user.json';
-import data from '../data.json';
-import friends from '../friends.json';
-import transactions from '../transactions.json';
+import user from '../otput_data/user.json';
+import data from '../otput_data/data.json';
+import friends from '../otput_data/friends.json';
+import transactions from '../otput_data/transactions.json';
 import Profile from './Profile/Profile';
 import Statistics from './Statistics/Statistics';
 import FriendsList from './Friends/FriendsList';
@@ -16,9 +16,7 @@ export const App = () => {
       tag={user.tag}
       location={user.location}
       avatar={user.avatar}
-      followers={user.stats.followers}
-      views={user.stats.views}
-      likes={user.stats.likes}
+      stats={user.stats}
       />
 
       <Statistics
